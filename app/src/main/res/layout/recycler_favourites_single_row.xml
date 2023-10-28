@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="4dp"
+    android:background="#ffffff"
+    app:cardCornerRadius="10dp"
+    android:orientation="vertical"
+
+
+
+    >
+<LinearLayout
+    android:id="@+id/llFavContent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="11"
+    >
+
+    <ImageView
+        android:id="@+id/imgFavBookImage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:background="#f5f5f5"
+        android:scaleType="fitCenter"
+        android:src="@drawable/booklistimage"
+        />
+
+    <TextView
+        android:id="@+id/txtFavBookTittle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="1.5"
+        android:text="Lokesh Thakur"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+
+
+    <TextView
+        android:id="@+id/txtFavBookAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="1.5"
+        android:text="manoj Thakur"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+
+
+    <TextView
+        android:id="@+id/txtFavBookPrice"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="1.5"
+        android:text="Lokesh Thakur"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+
+    <TextView
+        android:id="@+id/txtFavBookRating"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="1.5"
+        android:text="Lokesh Thakur"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+
+
+
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">bookhub</string>
+    <string name="open_Drawer">Open Drawer</string>
+    <string name="close_drawer">Closed Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">DashBoard fragment</string>
+    <string name="favourites_fragment">Favourites Fragment</string>
+    <string name="profile_fragment">Profile Fragment</string>
+    <string name="about_app_fragment">About App Fragment</string>
+</resources>
